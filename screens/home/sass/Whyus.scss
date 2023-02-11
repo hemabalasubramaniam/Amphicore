@@ -1,0 +1,25 @@
+@import '../../../assets/scss/Config.scss';
+
+.whyus{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 7.5em;
+    .whyushead{
+        font-family: $primary-font-family;
+        font-size: $primary-font-size;
+        font-weight: bold;
+    }
+    .whyustext{
+        font-family: $secondary-font-family;
+        line-height: 1.8;
+    }
+    .ui.button{
+        background-color: $browncolor;
+        color: $whitecolor;
+        border-radius: $button-radius;
+        float: right;
+        padding: 1em 2.5em 1em 2.5em;
+        margin: 0em 6em 0em 0em;
+        font-size: 1.2em;
+    }
+}

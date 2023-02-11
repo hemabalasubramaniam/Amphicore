@@ -1,0 +1,44 @@
+@import '../../../assets/scss/Config.scss';
+
+.testimonialbody{
+    width: 90%;
+    margin: auto;
+    background:
+    linear-gradient(to top, $blackcolor 0.1em, transparent 0.2em) 100% 100%,
+    linear-gradient(to left, $blackcolor 0.1em, transparent 0.2em) 100% 100%,
+    
+    linear-gradient(to bottom, $blackcolor 0.1em, transparent 0.2em) 0 0,
+    linear-gradient(to right, $blackcolor 0.1em, transparent 0.2em) 0 0;
+
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    
+    .testimonials{
+        width: 75%;
+        margin: auto;
+        margin-bottom: 5em;
+        height: 20em;
+        .testimonialhead{
+            font-family: $primary-font-family;
+            font-size: $primary-font-size;
+            text-align: center;
+            font-weight: bold;
+        }
+        div.rect{
+            width: 65em;
+            margin: auto;
+            height: 14em;
+            background-color: $graycolor;
+            position: absolute;
+        }
+        div.circle{
+            position: relative;
+            left: 58em;
+            bottom: 5em;
+            width: 10em;
+            height: 10em;
+            border-radius: 50%;
+            background-color: $testimonials-circle;
+        }
+    }
+}

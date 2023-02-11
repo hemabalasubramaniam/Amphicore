@@ -1,0 +1,56 @@
+@import '../../../assets/scss/Config.scss';
+
+.aboutpage{
+    width: 85.5%;
+    height: 35em;
+    margin-left: 6.2em;
+    .ui.image{
+        width: 100%;
+        height: 32em;
+    }
+    .aboutdesc{
+        position: relative;
+        bottom: 26em;
+        left: 11em; 
+        width: 78%;
+        p.abouthead{
+            text-align: center;
+            font-family: $primary-font-family;
+            font-size: 2.1vw;
+            font-weight: 500;
+            color: $browncolor;
+        }
+        p{
+            font-family: $secondary-font-family;
+            font-size: 1em;
+            line-height: 1.8;
+        }
+    }
+}
+
+.aboutimg{
+    width: 85.5%;
+    margin: auto;
+    height: 60em;
+    div.core-engine{
+        height: 28em;
+         position: absolute;
+        .ui.image{
+            width: 100%;
+            height: 28em;
+        }
+    }
+    div.core-electric{
+        width: 65%;
+        height: 35em;
+        position: relative;
+        left: 28em;
+        top: 21em;
+        bottom: 20em;
+        z-index: -1;
+        .ui.image{
+            width: 100%;
+            height: 35em;
+        }
+    }
+}

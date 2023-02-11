@@ -1,0 +1,30 @@
+@import '../../../assets/scss/Config.scss';
+
+
+.corelogo{
+    width: 85%;
+    margin: auto;
+    margin-top: 10em;
+}
+
+.aboutcontent{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 5em;
+    .img{
+        width: 50%;
+    }
+    .content{
+        width: 50%;
+        background-color: $lite-brown ;
+        p{
+            color: $whitecolor;
+            padding: 10em 3em 3em 3em;
+            text-align: justify;
+            font-family: $secondary-font-family;
+            line-height: 1.5;
+            font-weight: 400;
+        }
+    }
+}

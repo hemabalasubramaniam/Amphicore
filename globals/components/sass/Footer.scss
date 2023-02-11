@@ -1,0 +1,85 @@
+@import '../../../assets/scss/Config.scss';
+
+.footer{
+    width: 100%;
+    height: 30em;
+    background-color: $greencolor;
+    display: flex;
+    .footerl{
+        width: 50%;
+        margin: 0em 5em 2em 5em;
+        .footerlogo{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        span{
+            background-color: $whitecolor;
+            width: 7em;
+            height: 9em;
+            border-radius: 0em 0em 5em 5em;
+            .ui.image{
+                margin-top: 1em;
+            }
+        }
+        p.contactinfohead{
+            font-size: 1.5em;
+        }
+        p{
+            color: $whitecolor;
+            font-family: $teritary-font-family;
+            font-weight: 700;
+            padding-top: 1em;
+            font-size: 1.2em;
+        }
+        .contactinfo{
+            display: grid;
+            grid-template-columns: auto auto;
+            p{
+                padding: 1em 0em 1.5em 0em;
+            }
+        }
+        .footerinfo{
+            font-family: $primary-font-family;
+            color: $whitecolor;
+            font-size: $secondary-font-size;
+            margin: 0.5em 4em 2em 1em;
+        }
+    }
+    .footerr{
+        width: 40%;
+        margin: auto;
+        .ui.form{
+            display: grid;
+            width: 90%;
+            textarea{
+                background-color: $graycolor;
+                color: $blackcolor;
+                margin: 1em;
+            }
+            input{
+                background-color: $graycolor;
+                color: $blackcolor;
+                margin: 1em;
+                padding: 1em;
+            }
+        }
+    }
+}
+.socialicons{
+    height: 8em;
+    background-color: $graycolor;
+    .social{
+        display: flex;
+        margin: auto;
+        width: 25%;
+        padding: 2em 2em 2em 1em;
+        div{
+            width: 4em;
+            border: 1px solid $blackcolor;
+            height: 4em;
+            margin: 0em 2em 0em 2em;
+            background-color: $whitecolor;
+            margin: auto;
+        }
+    }
+}

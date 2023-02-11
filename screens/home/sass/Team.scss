@@ -1,0 +1,33 @@
+@import '../../../assets/scss/Config.scss';
+
+.team{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 6em;
+    p.teamhead{
+        font-family: $primary-font-family;
+        font-size: $primary-font-size;
+        text-align: center;
+        font-weight: bold;
+    }
+    .teammembers{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        div{
+            text-align: center;
+            div.profile{
+                margin: auto;
+                border-radius: 50%;
+                width: 18em;
+                height: 18em;
+                background-color: $graycolor;
+            }
+            p{
+                font-family: $primary-font-family;
+                margin-top: 1em;
+                font-size: 1.6em;
+                font-weight: 500;
+            }
+        }
+    }
+}
